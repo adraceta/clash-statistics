@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px 0 20px;
+
+    .menuContainer {
+        display: flex;
+
+        p {
+            padding: 7px;
+        }
+    }
+}

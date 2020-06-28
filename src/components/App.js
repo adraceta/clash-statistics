@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>IMPERIAL BORKS</h1>
-        <nav>
+        <Link to="/">
+          <h1>IMPERIAL BORKS</h1>
+        </Link>
+        <nav className='menuContainer'>
           <Link to="/statistics">
             <p className='menu statistics'>Estadísticas</p>
           </Link>

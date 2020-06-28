@@ -1,9 +1,10 @@
 import React from 'react';
+import '../stylesheets/App.scss';
 
 function Statistics() {
   return (
-    <div>
-        HOLA
+    <div className='statisticsContainer'>
+
     </div>
   );
 }
